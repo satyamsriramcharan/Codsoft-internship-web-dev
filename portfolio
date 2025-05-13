@@ -1,0 +1,118 @@
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+section {
+    padding: 30px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.project {
+    background-color: #eef;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sriram Charan</h1>
+        <p>Web Developer & Designer</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="photos/profile photo.jpg" alt="My Profile Photo" width="200">
+        <p>I am a beginner web developer passionate about building beautiful and functional websites. I love learning new technologies and creating simple web applications.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript (Basic)</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Landing Page</h3>
+            <p>A simple responsive landing page built using HTML and CSS.</p>
+        </div>
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>A basic calculator using HTML, CSS, and JavaScript.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="RESUME_ai_ats.pdf" download>Download My Resume (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: satyamsriramcharan@gmail.com</p>
+        <p>Phone: +91-9550961082</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sriram Charan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
